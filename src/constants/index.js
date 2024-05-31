@@ -42,7 +42,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "graphics designer",
     icon: web,
   },
   {
@@ -54,7 +54,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Cloud Engineer",
     icon: creator,
   },
 ];
@@ -116,42 +116,47 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Database Developer",
+    company_name: "Next Technologies",
     icon: starbucks,
     iconBg: "#383E56",
     date: "March 2020 - April 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Design and build database structures for efficient data storage and management.",
+      "Optimize database performance for speed and scalability.",
+      "Ensure data integrity and security through access controls and backup procedures.",
+      "Integrate databases with software solutions developed by other programmers",
+      "Write and implement SQL queries for data retrieval, manipulation, and analysis."
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "Network Administrator",
+    company_name: "Burst Digital Kenya",
     icon: tesla,
     iconBg: "#E6DEDD",
     date: "Jan 2021 - Feb 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Install, configure, and maintain network hardware and software (routers, switches, firewalls)",
+      "Monitor network performance and troubleshoot connectivity issues",
+      "Implement security measures to protect the network from cyber threats.",
+      "Manage user accounts and access controls",
+      "Document network configurations and procedures",
+     
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: "Systems Analyst",
+    company_name: "Codesmith Systems",
     icon: shopify,
     iconBg: "#383E56",
     date: "Jan 2022 - Jan 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Analyze business needs and processes to identify opportunities for technological improvement.", 
+      " Design, develop, and implement information systems to meet those needs.",
+      " Gather and document system requirements.",
+      " Test and troubleshoot system functionality.",
+
+
     ],
   },
   {
@@ -173,15 +178,15 @@ const testimonials = [
   {
     testimonial:
       "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
+    name: "David Kinyua",
     designation: "CFO",
-    company: "Acme Co",
+    company: "huawei",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
       "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
+    name: "Brian kiprop",
     designation: "COO",
     company: "DEF Corp",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
@@ -189,7 +194,7 @@ const testimonials = [
   {
     testimonial:
       "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
+    name: "Lina makena",
     designation: "CTO",
     company: "456 Enterprises",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
@@ -263,3 +268,4 @@ const projects = [
 ];
 
 export { services, technologies, experiences, testimonials, projects };
+
